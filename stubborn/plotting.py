@@ -16,7 +16,7 @@ from stubborn.county import misc
 @click.option('-p', '--path', 'path_expression', type=str, required=False, show_default=True)
 def plot_reward(path_expression: Optional[str]) -> None:
     import plotly.graph_objects as go
-    path = misc.parse_output_path(path_expression, 'stubborn', file_name='rollout/rollout.jsonl')
+    path = misc.parse_output_path(path_expression, 'stubborn', file_name='rollout.jsonl')
 
     print(f'Making a reward plot for {path.parent.parent.name} ...')
 
@@ -41,7 +41,7 @@ def plot_reward(path_expression: Optional[str]) -> None:
 @click.option('-p', '--path', 'path_expression', type=str, required=False, show_default=True)
 def plot_insistence(path_expression: Optional[str]) -> None:
     import plotly.graph_objects as go
-    path = misc.parse_output_path(path_expression, 'stubborn', file_name='rollout/rollout.jsonl')
+    path = misc.parse_output_path(path_expression, 'stubborn', file_name='rollout.jsonl')
 
     print(f'Making an insistence plot for {path.parent.parent.name} ...')
 

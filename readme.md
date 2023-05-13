@@ -1,6 +1,6 @@
 # Stubborn: An Environment for Evaluating Stubbornness between Agents with Aligned Incentives
 
-<!--* [Video](http://r.rachum.com/stubborn-workshop-video)-->
+* [Video](http://r.rachum.com/stubborn-video)
 * [Slide deck](http://r.rachum.com/stubborn-deck)
 
 *Stubborn* is an experiment in the field of [multi-agent reinforcement learning](https://en.wikipedia.org/wiki/Multi-agent_reinforcement_learning). The goal of the experiment is to see whether reinforcement learning agents can learn to communicate important information to each other by fighting with each other, even though they are "on the same side". By running the experiment and generating plots using the commands documented below, you could replicate the results shown in our paper. By modifying the environment rules as defined in the code, you could extend the experiment to investigate this scenario in different ways.

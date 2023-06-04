@@ -1,11 +1,12 @@
 # Stubborn: An Environment for Evaluating Stubbornness between Agents with Aligned Incentives
 
-* [Video](http://r.rachum.com/stubborn-video)
-* [Slide deck](http://r.rachum.com/stubborn-deck)
+* [Video](https://r.rachum.com/stubborn-video)
+* [Slide Deck](https://r.rachum.com/stubborn-deck)
+* [Paper](http://r.rachum.com/stubborn-paper)
 
 *Stubborn* is an experiment in the field of [multi-agent reinforcement learning](https://en.wikipedia.org/wiki/Multi-agent_reinforcement_learning). The goal of the experiment is to see whether reinforcement learning agents can learn to communicate important information to each other by fighting with each other, even though they are "on the same side". By running the experiment and generating plots using the commands documented below, you could replicate the results shown in our paper. By modifying the environment rules as defined in the code, you could extend the experiment to investigate this scenario in different ways.
 
-*Stubborn* will be presented at the [Workshop on Rebellion and Disobedience in AI](https://sites.google.com/view/rad-ai/) at [The International Conference on Autonomous Agents and Multiagent Systems](https://aamas2023.soton.ac.uk/). Read the [full paper](http://r.rachum.com/stubborn-paper). Abstract:
+*Stubborn* was presented at the [Workshop on Rebellion and Disobedience in AI](https://sites.google.com/view/rad-ai/) at [The International Conference on Autonomous Agents and Multiagent Systems](https://aamas2023.soton.ac.uk/). Read the [full paper](http://r.rachum.com/stubborn-paper). Abstract:
 
 > Recent research in multi-agent reinforcement learning (MARL) has shown success in learning social behavior and cooperation. Social dilemmas between agents in mixed-sum settings have been studied extensively, but there is little research into social dilemmas in fully cooperative settings, where agents have no prospect of gaining reward at another agent’s expense.
 >
